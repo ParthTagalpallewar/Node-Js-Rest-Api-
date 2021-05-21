@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to learning node js application." });
 });
 
 require("./api/routes/customer.routes.js")(app);
