@@ -7,3 +7,11 @@
 
 
 //hello i wanted to push this
+
+//Remaining Topics 
+
+1. Firebase Notification
+2. Twilio Opt
+3. Hosting
+4. File Uploading
+5. Socket Programming For Chat api
