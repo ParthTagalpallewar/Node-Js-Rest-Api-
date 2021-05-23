@@ -15,7 +15,8 @@ app.get("/", (req, res) => {
 });
 
 require("./api/routes/customer.routes.js")(app);
-require("./api/routes/images.routes.js")(app,multer)
+require("./api/routes/images.routes.js")(app,multer);
+require("./api/routes/sms.router.js")(app);
 
 // set port, listen for requests
 app.listen( port, () => {
